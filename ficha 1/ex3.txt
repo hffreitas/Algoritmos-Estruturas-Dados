@@ -1,0 +1,10 @@
+Algoritmo IMC
+/*
+Calcular o IMC - peso/ (altura^2)
+*/
+1. Write("Inserir peso em kg e altura em metros)
+2. Read(peso,altura)
+3. imc <- peso/ (altura*altura)
+4. Write("Para o peso", peso, " e altura", altura,
+    "o IMC é", imc)
+5. Exit()

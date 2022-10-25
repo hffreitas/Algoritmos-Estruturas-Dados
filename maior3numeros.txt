@@ -1,0 +1,14 @@
+Algoritmo maior3numeros
+/*
+Calcular o maior de 3 numeros
+*/ 
+1. Read(a)
+2. Read(b)
+3. Read(c)
+4. If a > b & a > c Then
+    Write("O maior é o ", a)
+   Else If b > c & a <= b Then 
+        Write("O maior é o ", b)
+        else If (c >= a) Then
+            Write("O maior é o ", c)
+        
