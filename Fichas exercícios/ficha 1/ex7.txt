@@ -1,0 +1,15 @@
+Algoritmo anoBissexto
+/* Verificar se um ano é bissexto
+*/
+1. Read(ANO)
+2. If mod(ANO,4) = 0 Then
+     If mod(ANO,100) = 0 Then
+       If mod(ANO, 400) = 0 Then 
+         Write("Ano é bissexto")
+       Else 
+         Write("Ano não é bissexto")
+     Else
+       Write("Ano é bissexto")
+   Else 
+     Write( "Ano não é bissexto")
+3. Exit()

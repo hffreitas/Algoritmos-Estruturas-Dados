@@ -1,0 +1,8 @@
+Algoritmo DIVISAO
+1. Read(DIVIDENDO, DIVISOR)
+2. If DIVISOR = 0 Then
+     Write ("impossivel")
+   Else 
+     res <- DIVIDENDO/DIVISOR
+3. Write("resultado: ", res)
+4. Exit()
