@@ -12,5 +12,3 @@ typedef struct sAluno{
 Aluno criarAluno();
 
 void imprimeAluno(Aluno a);
-
-Aluno* procuraAluno(Turma t, int numero);

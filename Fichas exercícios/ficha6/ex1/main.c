@@ -7,7 +7,6 @@ void menu();
 int main(int argc, char const *argv[])
 {
     Turma t = read();
-
     menu(&t);
 
     return 0;

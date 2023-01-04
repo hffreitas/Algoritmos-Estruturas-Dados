@@ -34,11 +34,13 @@ void save(Turma t){
 }
 
 Turma read(){
+    //declarar turma
     Turma t;
-    t = criarTurma();
-    Aluno a;
+    t = criarTurma(); //garantir que inicialmente o tamanho da turma e 0
+    // ler do ficheiro e carregar os dados na Turma t
     FILE *f;
     f = fopen("dados.dat", "rb");
+    if (f == NULL) return t;
     fread(&t, sizeof(Turma), 1, f);
     fclose(f);
     return t;
